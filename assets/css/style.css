@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Removed all non-semantic css elements related to  the nav */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,7 +22,7 @@ h1 {
 }
 
 
-
+/* Removed all non-semantic css elements / implemented nav element. */
 nav {
     padding-top: 15px;
     margin-right: 20px;
