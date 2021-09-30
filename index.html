@@ -4,26 +4,26 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Horiseon Ecommerce Agency</title>
 </head>
 
 <body>
      <!-- Removed span and .seo element. -->
     <header class="header">
         <h1>Horiseon</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </nav>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#search-engine-optimization">Search Engine Optimization</a>
+                    </li>
+                    <li>
+                        <a href="#online-reputation-management">Online Reputation Management</a>
+                    </li>
+                    <li>
+                        <a href="#social-media-marketing">Social Media Marketing</a>
+                    </li>
+                </ul>
+            </nav>
     </header>
      <!-- Removed <div> for <img> element. Pretty sure this may confuse someone. -->
     <img class="hero">
@@ -59,35 +59,45 @@
             </figure>
         </article>
     </section>
-    <div class="benefits">
-        <div class="benefit-lead">
-            <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" />
-            <p>
-                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
-            </p>
-        </div>
-        <div class="benefit-brand">
-            <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
-            <p>
-                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
-            </p>
-        </div>
-        <div class="benefit-cost">
-            <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png" />
-            <p>
-                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
-            </p>
-        </div>
-    </div>
-    <div class="footer">
+     <!-- Substituted divs for semantic structure section, article figure, etc. -->    
+    <section class="benefits">
+        <article class="benefit-lead">
+            <figure>
+                <h3>Lead Generation</h3>
+                    <img src="./assets/images/lead-generation.png" />
+                        <figurecaption>
+                            Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+                        </figurecaption>
+            </figure>
+        </article>
+     <!-- Substituted divs for semantic structure section, article figure, etc. -->   
+        <article class="benefit-brand">
+            <figure>
+                <h3>Brand Awareness</h3>
+                    <img src="./assets/images/brand-awareness.png" />
+                        <figurecaption>
+                            Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+                        </figurecaption>
+            </figure>            
+        </article>
+     <!-- Substituted divs for semantic structure section, article figure, etc. -->   
+        <article class="benefit-cost">
+            <figure>
+                <h3>Cost Management</h3>
+                    <img src="./assets/images/cost-management.png" />
+                        <figurecaption>
+                            As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+                        </figurecaption>
+            </figure>            
+        </article>
+    </section>
+     <!-- Substituted divs for semantice structure : <footer></footer> --> 
+    <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
-        <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
-        </p>
-    </div>
+            <p>
+                &copy; 2019 Horiseon Social Solution Services, Inc.
+            </p>
+    </footer>
 </body>
 
 </html>
