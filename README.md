@@ -25,9 +25,10 @@ What are the steps required to install your project? Provide a step-by-step desc
 ## Usagecd assets : <!-- See line 153 -->
 Provide instructions and examples for use. Include screenshots as needed.
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-    ```md
-    ![alt text](/assets/images/Screen Shot 2021-09-30 at 4.08.31 PM.png)
-    ```
+
+    ![ScreenShot](assets/images/Screen Shot 2021-09-30 at 4.08.31 PM.png)
+    
+    
 ## Credits : <!-- See line 159 -->
 List your collaborators, if any, with links to their GitHub profiles.
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
