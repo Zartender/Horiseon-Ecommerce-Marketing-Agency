@@ -26,7 +26,7 @@ What are the steps required to install your project? Provide a step-by-step desc
 Provide instructions and examples for use. Include screenshots as needed.
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-   - ![ScreenShot](assets/images/Screen Shot 2021-09-30 at 4.08.31 PM.png)
+   - [ScreenShot](assets/images/Screen Shot 2021-09-30 at 4.08.31 PM.png)
    - [Link](https://zartender.github.io/Horiseon-Ecommerce-Marketing-Agency/)
 
     
